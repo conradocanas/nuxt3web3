@@ -1,6 +1,7 @@
 # Nuxt 3 Wagmi Web3Modal Example
 
 WORK IN PROGRESS
+Important: Only working on Ethereum Mainnet (ChainId: 1) for the moment. May present errors or not show data in other chains.
 
 Technologies used:
 - Nuxt 3
