@@ -1,11 +1,15 @@
 # Nuxt 3 Wagmi Web3Modal Example
 
+WORK IN PROGRESS
+
 Technologies used:
 - Nuxt 3
 - Bootstrap 5
 - Web3Modal v2
 - Wagmi / use-wagmi
 - Viem
+
+### Live version: https://nuxt3web3.conrado.ar/
 
 
 ## Setup
