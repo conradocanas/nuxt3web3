@@ -9,7 +9,9 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "buildFleek": "node_modules/nuxt/bin/nuxt.js build -c ./nuxt.config.js",
+    "startFleek": "node_modules/nuxt/bin/nuxt.js start -c ./nuxt.config.js"
   },
   "dependencies": {
     "@vueuse/nuxt": "^10.3.0",
