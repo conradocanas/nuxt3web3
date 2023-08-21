@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@vueuse/nuxt": "^10.3.0",
+    "@web3modal/ethereum": "^2.7.1",
+    "@web3modal/html": "^2.7.1",
+    "bootstrap": "^5.3.1",
+    "typescript": "^5.1.6",
+    "use-wagmi": "^0.3.9",
+    "viem": "^1.6.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.40.2",
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.3",
+    "@use-wagmi/nuxt": "^1.1.4",
+    "eslint": "^8.47.0",
+    "lint-staged": "^14.0.0",
+    "nuxt": "^3.6.5",
+    "simple-git-hooks": "^2.9.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}
