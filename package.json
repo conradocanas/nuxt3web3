@@ -8,7 +8,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "start": "node .output/server/index.mjs"
   },
   "dependencies": {
     "@vueuse/nuxt": "^10.3.0",
