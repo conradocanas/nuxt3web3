@@ -1,6 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Wagmi Web3Modal Example
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Technologies used:
+- Nuxt 3
+- Bootstrap 5
+- Web3Modal v2
+- Wagmi / use-wagmi
+- Viem
+
 
 ## Setup
 
